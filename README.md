@@ -35,7 +35,7 @@ chess_classifier/
 - Base model: VGG19 (pre-trained on ImageNet)
 - Custom top layers with dropout for regularization
 - Advanced data augmentation pipeline
-- Achieved accuracy of XX% on test set
+- Achieved accuracy of 0.8984% on test set
 
 ## Prerequisites
 - Docker and Docker Compose
@@ -92,13 +92,10 @@ The model was trained using the following approach:
 3. Fine-tuning of top layers
 4. Hyperparameter optimization
 
-Detailed training process and results are available in `notebooks/model_development.ipynb`.
+Detailed training process and results are available in `notebooks/Assessment ML Chess Submission.ipynb`.
 
 ## Performance Metrics
-- Accuracy: XX%
-- Precision: XX%
-- Recall: XX%
-- F1-Score: XX%
+- Accuracy: 0.8984%
 
 ## Troubleshooting
 
@@ -142,4 +139,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Streamlit team
 
 ## Contact
-For any queries or issues, please open an issue on GitHub or contact [Your Name](mailto:your.email@example.com).
+For any queries or issues, please open an issue on GitHub or contact [Muhammed](mailto:ajaxclopidia77@gmail.com).
