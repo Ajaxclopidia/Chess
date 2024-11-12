@@ -1,0 +1,31 @@
+# Python virtual environment
+venv/
+env/
+.env/
+.venv/
+ENV/
+# Ignore libraries and environment files
+chess/
+*.dylib
+*.so
+
+# Ignore other large or unnecessary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
